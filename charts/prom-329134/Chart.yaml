@@ -9,4 +9,4 @@ name: prom-329134
 orig_name: prometheus-mysql-exporter
 sources:
 - https://github.com/prometheus/mysqld_exporter
-version: 0.3.2
+version: 0.0.3
