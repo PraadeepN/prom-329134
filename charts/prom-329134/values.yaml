@@ -80,12 +80,12 @@ collectors: {}
 # mysql connection params which build the DATA_SOURCE_NAME env var of the docker container
 mysql:
   db: ""
-  host: "localhost"
+  host: "172.20.33.211"
   param: ""
-  pass: "password"
+  pass: "testing"
   port: 3306
   protocol: ""
-  user: "exporter"
+  user: "root"
 
 # cloudsqlproxy https://cloud.google.com/sql/docs/mysql/sql-proxy
 cloudsqlproxy:
