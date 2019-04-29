@@ -9,6 +9,8 @@ metadata:
     chart: {{ template "prometheus-mysql-exporter.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
+  annotations:
+    snappyflow/prometheus: "true"
 spec:
   type: {{ .Values.service.type }}
   ports:
